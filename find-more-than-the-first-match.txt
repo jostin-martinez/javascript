@@ -1,0 +1,8 @@
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /Twinkle/gi; // Change this line
+let result = twinkleStar.match(starRegex); // Change this line
+console.log(result)
+
+//we can use more than one flag 
+//g --> To search or extract a pattern more than once
+//i flag --> we use it to distinc either upper or lower case
